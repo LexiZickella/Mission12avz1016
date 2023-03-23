@@ -338,7 +338,7 @@ class Team extends React.Component
     return (
       <div>
         <h2>{singleTeam.school}</h2>
-        <h4>Team Name: {singleTeam.name}</h4>
+        <h4>Mascot: {singleTeam.name}</h4>
         <h4>Location: {singleTeam.city} {singleTeam.state}</h4>
       </div>
     );
